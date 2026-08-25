@@ -92,6 +92,20 @@ sets up the local repo and connects the remote for you) — if you're not sure
 `git status` and `git remote -v` both work cleanly in this folder, that's the
 first thing to check before moving on.
 
+### What your repo should look like once this step is done
+
+```
+your-repo-name/
+├── .gitignore          ← you create this
+├── LICENSE             ← you create this
+├── README.md           ← already here
+├── PROJECT_OVERVIEW.md ← already here
+├── CHECKLIST_TIMELINE.md ← already here
+├── data/               ← already here (the dataset you'll inspect)
+└── starter/
+    └── field_notes.md  ← already here (what you'll fill in)
+```
+
 ### Writing bash commands (you'll need this)
 
 Anywhere in this project you write down a terminal command — in
