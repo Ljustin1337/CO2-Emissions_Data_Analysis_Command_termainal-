@@ -80,8 +80,18 @@ command you run and record, not a program you write.
   a real error (or unexpected result) and how you diagnosed it.
   > ⚠️ Common mistake: a vague or generic-sounding note that could've been
   > written without actually hitting it.
-- [ ] Update `README.md`: what the dataset is, its license/source, and a
-  one-line pointer to your data-quality question.
+- [ ] **Delete `PROJECT_OVERVIEW.md`** — it explains the assignment, not
+  your project, and a real portfolio repo shouldn't have "here's what you
+  were asked to build" sitting in it.
+- [ ] **Replace `README.md`'s content with your own real project README** —
+  what the dataset is, its license/source, your data-quality question, and
+  your key findings. Write it for someone who's never seen this assignment,
+  not someone grading it:
+  - **Dataset Overview** — what it is, source, license.
+  - **What I Found** — real column-type calls and a couple of concrete
+    observations.
+  - **Data Quality Question** — the one you settled on, and why.
+  - **Reflection** — your AI-literacy takeaway.
 - [ ] Final push to GitHub — confirm the repo is actually **public** (open
   it in a private/incognito browser window to check).
 - [ ] Self-check against this checklist before calling it done.
