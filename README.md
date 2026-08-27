@@ -153,8 +153,8 @@ the command hoping it works. That's exactly what section 9 of
 `starter/field_notes.md` is for.
 
 **Where's the exact bar for "done," and what are the optional stretch
-goals?** This repo (your own copy) doesn't include `MVP.md` or
-`ABOVE_AND_BEYOND.md` on purpose — they're not something to keep sitting in
+goals?** This repo (your own copy) doesn't include `MVP.md` (your **M**inimum **V**iable **P**roduct —
+the required baseline) or `ABOVE_AND_BEYOND.md` on purpose — they're not something to keep sitting in
 your portfolio repo. Ask your instructor for the link to this template's
 `project-scope` branch (it'll look like `.../tree/project-scope` on the
 *template's* GitHub page, not your own copy) to read them, or check the
