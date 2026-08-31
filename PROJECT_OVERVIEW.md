@@ -52,7 +52,8 @@ can already do this without being walked through it again.
 
 ## Timeline
 
-See `CHECKLIST_TIMELINE.md` for a suggested day-by-day pace and the full
+2 days, plus a required share-out session scheduled after. See
+`CHECKLIST_TIMELINE.md` for a suggested day-by-day pace and the full
 submission checklist.
 
 ## Where to start

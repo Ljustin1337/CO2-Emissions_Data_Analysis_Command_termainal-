@@ -101,14 +101,17 @@ submission — this project doesn't have a separate above-and-beyond phase
 built into the 2-day pace; if you finish with real time left over, see
 below.
 
-## After Day 2: peer field-notes review
+## Day 3 — Share-out
 
-Once everyone's submitted, there's a separate session where parts of your
-`field_notes.md` get shared **anonymously** with a small group of peers —
-you'll all compare reasoning against the *same* dataset (everyone used
-the same file this project), give each other real feedback, and see where
-your column-type calls and reflections agreed or didn't. No prep needed
-beyond having a real, finished `field_notes.md` — just know it's coming.
+Your instructor schedules this once every submission is in — usually a
+few days after Day 2, not necessarily the next calendar day. Real
+session, not optional: in groups of about 3, you compare your
+column-type calls, data-quality question, curiosity question, and
+AI-literacy rule from `field_notes.md` against peers who analyzed the
+exact same `co2_emissions_2022.csv` file, working through an anonymized
+shared doc together and then reporting patterns back as a group. No prep
+needed beyond having a real, finished `field_notes.md` — see your
+instructor for the exact date.
 
 ## Above & Beyond
 

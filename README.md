@@ -6,7 +6,8 @@ already in the right place.
 
 **Due:** 2 days (this first project is intentionally short — a couple of
 focused days right after this module's content phase, not a full week, since
-it's meant to get you moving, not to be a big lift). See
+it's meant to get you moving, not to be a big lift), plus a required
+share-out session scheduled after. See
 `CHECKLIST_TIMELINE.md` for a suggested day-by-day pace and the full
 submission checklist.
 
