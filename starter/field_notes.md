@@ -1,11 +1,14 @@
 # Data Literacy Field Notes & Terminal Log
 
-**The setup:** You're a new data analyst, and this dataset just landed with
-zero documentation. Before anyone can trust an analysis built on top of it,
-you need to figure out what's actually in it — what each column really
-holds, and anything that looks off. That's what this whole file walks
-through: the real, everyday first pass any analyst runs on an unfamiliar
-file.
+**The scenario:** A climate-and-energy nonprofit wants to use this
+country-level energy and emissions dataset to help decide where to direct
+community-protection and climate-support efforts — but the file just
+landed with zero documentation. Before anyone can trust a decision built
+on top of it, you need to figure out what's actually in it — what each
+column really holds, and anything that looks off. That's what this whole
+file walks through: the real, everyday first pass any analyst runs on an
+unfamiliar file, and the real answers you need before this data is safe
+to act on.
 
 Dataset: `../data/co2_emissions_2022.csv` (see `../data/SOURCE.md`). Each
 section below describes what you're trying to find out — **figuring out
@@ -17,8 +20,11 @@ Paste the **real output** you got underneath, then write your answer based
 on what you actually saw, not what you'd expect. Work through this in
 order; open the raw file before anything else.
 
-Run all commands from the repo root, or `cd` into `data/` first and drop the
-`data/` prefix — your choice, just be consistent.
+Run all commands from the repo root — the top-level folder you land in
+after cloning *your own* copy of this repo (`git clone ...` then `cd
+your-repo-name`, see `README.md` Step 3; not this template) — or `cd` into
+`data/` first and drop the `data/` prefix — your choice, just be
+consistent.
 
 **This one file is your whole record** — the commands you ran, their real
 output, and your written answers, all together in the order you actually

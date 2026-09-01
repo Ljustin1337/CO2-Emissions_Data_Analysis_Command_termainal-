@@ -50,7 +50,8 @@ Tools for this module (all free):
   don't have one.
 - **VS Code** — download from https://code.visualstudio.com (the macOS
   `.dmg` build), drag it into Applications. You'll use it to edit Markdown
-  files and open a terminal — not to write or run any code this project.
+  files and open a terminal — not to write or run any Python code this
+  project; there is none.
 
 ### Step 3: Clone your new repo locally
 

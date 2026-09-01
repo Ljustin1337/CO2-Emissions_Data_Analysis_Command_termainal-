@@ -13,8 +13,8 @@ here, see the ⚠️ below), don't just treat it as a list to shuffle.
 > model of what breaking a project into checkpoints looks like, not just a
 > checklist to follow on autopilot.
 
-This project doesn't involve writing code — every step below is a terminal
-command you run and record, not a program you write.
+This project doesn't involve writing Python code — every step below is a
+terminal command you run and record, not a program you write.
 
 ## Day 1 — Environment setup, raw look, first commits
 
@@ -80,21 +80,25 @@ command you run and record, not a program you write.
   a real error (or unexpected result) and how you diagnosed it.
   > ⚠️ Common mistake: a vague or generic-sounding note that could've been
   > written without actually hitting it.
-- [ ] **Delete `PROJECT_OVERVIEW.md`** — it explains the assignment, not
-  your project, and a real portfolio repo shouldn't have "here's what you
-  were asked to build" sitting in it.
 - [ ] **Replace `README.md`'s content with your own real project README** —
   what the dataset is, its license/source, your data-quality question, and
   your key findings. Write it for someone who's never seen this assignment,
   not someone grading it:
+  - **Scenario & Questions** — the real-world scenario this data relates
+    to (see `PROJECT_OVERVIEW.md`, before you delete it below) and the
+    specific questions you set out to answer by inspecting the file.
   - **Dataset Overview** — what it is, source, license.
   - **What I Found** — real column-type calls and a couple of concrete
     observations.
   - **Data Quality Question** — the one you settled on, and why.
   - **Reflection** — your AI-literacy takeaway.
+- [ ] Self-check against this checklist before calling it done.
+- [ ] **Delete `PROJECT_OVERVIEW.md` and this file (`CHECKLIST_TIMELINE.md`)**
+  — now that their content is captured in your real README, they're just
+  "here's what you were asked to build" clutter that shouldn't sit in a
+  real portfolio repo.
 - [ ] Final push to GitHub — confirm the repo is actually **public** (open
   it in a private/incognito browser window to check).
-- [ ] Self-check against this checklist before calling it done.
 
 **Exit criterion:** everything above is done and pushed. That's the whole
 submission — this project doesn't have a separate above-and-beyond phase
