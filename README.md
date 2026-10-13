@@ -6,8 +6,8 @@ already in the right place.
 
 **Due:** 2 days (this first project is intentionally short — a couple of
 focused days right after this module's content phase, not a full week, since
-it's meant to get you moving, not to be a big lift), plus a required
-share-out session scheduled after. See
+it's meant to get you moving, not to be a big lift), plus a share-out
+during TIP this week. See
 `CHECKLIST_TIMELINE.md` for a suggested day-by-day pace and the full
 submission checklist.
 
@@ -169,10 +169,14 @@ the command hoping it works. That's exactly what section 9 of
 `starter/field_notes.md` is for.
 
 **Where's the exact bar for "done," and what are the optional stretch
-goals?** This repo (your own copy) doesn't include `MVP.md` (your **M**inimum **V**iable **P**roduct —
-the required baseline) or `ABOVE_AND_BEYOND.md` on purpose — they're not something to keep sitting in
-your portfolio repo. Ask your instructor for the link to this template's
-`project-scope` branch (it'll look like `.../tree/project-scope` on the
-*template's* GitHub page, not your own copy) to read them, or check the
-checklist your instructor shares through the classroom, which covers the
-same ground.
+goals?** Everything required is in `CHECKLIST_TIMELINE.md`, and the
+optional stretch goals are the **Above & Beyond** list at the bottom of
+that same file. For the minimum bar in one short list, ask your instructor
+for the link to this template's `MVP.md` on its `project-scope` branch (it'll
+look like `.../tree/project-scope` on the *template's* GitHub page, not your
+own copy) — it's kept off `main` so it doesn't end up sitting in your
+portfolio repo.
+
+**Share-out:** this week during TIP, we'll share out your data-quality
+questions, how you used AI, and any reflections from the project — so come
+ready to talk about your project.

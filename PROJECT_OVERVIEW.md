@@ -70,7 +70,8 @@ being walked through it again.
 
 ## Timeline
 
-2 days, plus a required share-out session scheduled after. See
+2 days, plus a share-out during TIP this week — come ready to talk about
+your data-quality question, how you used AI, and your reflections. See
 [`CHECKLIST_TIMELINE.md`](CHECKLIST_TIMELINE.md) for a suggested
 day-by-day pace and the full submission checklist.
 

@@ -101,35 +101,67 @@ terminal command you run and record, not a program you write.
   it in a private/incognito browser window to check).
 
 **Exit criterion:** everything above is done and pushed. That's the whole
-submission — this project doesn't have a separate above-and-beyond phase
-built into the 2-day pace; if you finish with real time left over, see
-below.
+submission — the Above & Beyond items below are optional, for if you finish
+with real time left over.
 
-## Day 3 — Share-out
+## Share-out (this week, during TIP)
 
-Your instructor schedules this once every submission is in — usually a
-few days after Day 2, not necessarily the next calendar day. Real
-session, not optional: in groups of about 3, you compare your
-column-type calls, data-quality question, curiosity question, and
-AI-literacy rule from `field_notes.md` against peers who analyzed the
-exact same `co2_emissions_2022.csv` file, working through an anonymized
-shared doc together and then reporting patterns back as a group. No prep
-needed beyond having a real, finished `field_notes.md` — see your
-instructor for the exact date.
+This week during TIP, we'll share out your data-quality questions, how you
+used AI, and any reflections from the project — so come ready to talk about
+your project.
 
 ## Above & Beyond
 
-Only the additional items — everything above still applies and isn't
-repeated here. All four are detailed in `ABOVE_AND_BEYOND.md`; none require
-writing code except the last, which gives you the code to run.
+Optional — only if you finish the checklist above with time to spare. Pick
+one or two; you don't need to do all of them. A complete submission without
+any of these is still a full, passing submission. None of them require
+writing code except the last, which gives you the code to run. Log whatever
+you do in `field_notes.md`.
 
-- [ ] Chain terminal commands (`|`, `&&`) to answer a real question about the
-  dataset that a single command couldn't.
-- [ ] Find the min and max of a numeric column.
-- [ ] Do the AI-command-approval exercise for real: ask an AI assistant for a
-  terminal command, explain what it does, flag anything destructive, and
-  make an actual approve/modify/reject call.
-- [ ] Use a real branch + merge for one piece of this work instead of
-  committing straight to `main`.
-- [ ] Run the given-code Module 1 preview (`preview.py`) and compare it to
-  your own manual column-type table.
+- [ ] **Chain terminal commands** (`|`, `&&`) to answer a real question about
+  the dataset that a single command couldn't — `grep`, `head`, `wc`, `cut`,
+  whatever fits. A starting idea: of the rows missing `gdp` (section 5), how
+  many are real countries (non-empty `iso_code`) vs. aggregate rows? That
+  needs an `awk` one-liner combining both conditions — worth looking up.
+- [ ] **Find the min and max of a numeric column.** Isolate one column (same
+  technique as section 3), skip the header row, drop blanks, then sort
+  numerically (not alphabetically — figure out which flag does that) and
+  look at the first and last result. Try `co2`, `population`, or `gdp`. Does
+  anything look suspicious — like a min of exactly 0 that might be a
+  missing-value placeholder?
+- [ ] **Decide whether to approve an AI-suggested command.** Ask an AI
+  assistant for a terminal command to do something in this project.
+  **Before running it:** explain in your own words what it does, and flag
+  anything destructive or hard to undo (`rm`/`rm -rf`, `git reset --hard`, a
+  force-push). Then approve it as-is, modify it, or reject it — and say why.
+  Only then run what you approved, and log the real result.
+- [ ] **Use a branch instead of committing straight to `main`.** Create a
+  branch for your field-notes work, commit there, then merge it back.
+- [ ] **Preview of Module 1 — code given, you don't write it.** Save this as
+  `preview.py` and run it with `python3 preview.py` (if you don't have
+  Python installed, just read through it):
+  ```python
+  def guess_type(value):
+      """Given one value (as a string), guess what type of data it is."""
+      if value == "":
+          return "missing"
+      try:
+          int(value)
+          return "whole number"
+      except ValueError:
+          pass
+      try:
+          float(value)
+          return "decimal number"
+      except ValueError:
+          pass
+      return "text"
+
+  print(guess_type("40578847"))    # a population value
+  print(guess_type("10.170"))      # a co2 value
+  print(guess_type("Afghanistan")) # a country name
+  print(guess_type(""))            # a missing gdp value
+  ```
+  In `field_notes.md`, write 1-2 sentences: does `guess_type()` agree with
+  your own column-type table from section 3? Where might it disagree, and
+  why?
