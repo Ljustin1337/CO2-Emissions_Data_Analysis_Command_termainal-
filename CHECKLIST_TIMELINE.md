@@ -21,8 +21,8 @@ terminal command you run and record, not a program you write.
 - [ ] Terminal, Git, GitHub account, and VS Code installed/ready.
 - [ ] Repo created from the template via **"Use this template"** (not Fork)
   and cloned locally — see `README.md`.
-- [ ] Your own `.gitignore` created (a few real lines, not copy-pasted blind)
-  and a `LICENSE` chosen.
+- [ ] Your own `.gitignore` created with the lines from `README.md` Step 4
+  (and you can explain what each one is for).
 - [ ] `field_notes.md`'s "Setup log" section opened and started — log
   commands as you go, in fenced code blocks tagged `bash`, not reconstructed
   from memory later.
@@ -34,7 +34,7 @@ terminal command you run and record, not a program you write.
   > ⚠️ Common mistake: listing column names without ever actually opening and
   > looking at the raw data first.
 - [ ] Jot down what you notice from the raw look (section 1).
-- [ ] Commit: `git commit -m "add gitignore and license"`, then
+- [ ] Commit: `git commit -m "add gitignore"`, then
   `git commit -m "add raw data"` — don't wait until everything's done to
   commit for the first time.
 - [ ] Find and log a command that shows just the column names, then a

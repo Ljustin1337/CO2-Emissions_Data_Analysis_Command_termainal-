@@ -40,7 +40,7 @@ being walked through it again.
 
 - A **public GitHub repo**, created from the template via "Use this
   template" (not Fork).
-- Your own `.gitignore` and `LICENSE`.
+- Your own `.gitignore`.
 - [`starter/field_notes.md`](starter/field_notes.md) filled in — one file
   covering your setup log, all 8 data-literacy sections with real terminal
   output pasted in (not assumed or reconstructed), and one genuine error

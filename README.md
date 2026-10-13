@@ -68,26 +68,41 @@ cd <your-repo-name>
 
 This module is literally about learning git, GitHub, and the terminal — so
 unlike some later projects, this template does **not** come with a
-`.gitignore` or a `LICENSE` already made. Building them is part of the
-assignment, not busywork:
+`.gitignore` already made. Creating it yourself is part of the assignment:
 
-- **Create a `.gitignore`.** From the terminal: `touch .gitignore`, then open
-  it in VS Code and add a few lines for files Python/Jupyter projects
-  shouldn't track — think about what actually shouldn't go in version control
-  (compiled files, checkpoint files your notebook editor creates
-  automatically, OS-generated files like `.DS_Store`). Don't just copy a
-  `.gitignore` from somewhere — write the 3-4 lines that apply to *this*
-  project, so you understand what each one is for.
-- **Choose a `LICENSE`.** Since this repo is going public, add a license so
-  it's clear what others can do with your code. MIT is a common, simple
-  default for a personal project — see https://choosealicense.com if you want
-  to understand the tradeoffs before picking.
-- **Make your first commit.** Once you've added those two files:
+- **Create a `.gitignore`.** A `.gitignore` is a plain-text list of files and
+  folders git should never track. From the terminal (inside your repo
+  folder):
   ```bash
-  git add .gitignore LICENSE
-  git commit -m "add gitignore and license"
+  touch .gitignore
+  code .gitignore
+  ```
+  (If `code` isn't recognized, just open `.gitignore` from VS Code's file
+  sidebar instead.) Paste in exactly these lines and save:
+  ```
+  # macOS creates this hidden file in every folder you open in Finder
+  .DS_Store
+
+  # VS Code's per-folder editor settings — personal, not part of the project
+  .vscode/
+
+  # Python and Jupyter leftovers — you won't make these in this project,
+  # but you will in later modules, so ignore them from day one
+  __pycache__/
+  .ipynb_checkpoints/
+  ```
+  Lines starting with `#` are comments — git skips them. A name ending in
+  `/` means "ignore this whole folder." You'll be asked about what's in your
+  `.gitignore` during share-out, so read the comments rather than just
+  pasting.
+- **Make your first commit.** Once your `.gitignore` is saved:
+  ```bash
+  git add .gitignore
+  git commit -m "add gitignore"
   git push
   ```
+
+You do **not** need to add a `LICENSE` file for this project.
 
 You should already have `git init`-equivalent setup from cloning (cloning
 sets up the local repo and connects the remote for you) — if you're not sure
@@ -99,7 +114,6 @@ first thing to check before moving on.
 ```
 your-repo-name/
 ├── .gitignore          ← you create this
-├── LICENSE             ← you create this
 ├── README.md           ← already here
 ├── PROJECT_OVERVIEW.md ← already here
 ├── CHECKLIST_TIMELINE.md ← already here

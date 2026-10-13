@@ -45,7 +45,7 @@ it renders with syntax highlighting and makes the command copy-pasteable.
 
 Before jumping into the dataset, log the commands you actually ran to set
 this repo up (see `README.md`) — `git init`/clone, creating your
-`.gitignore` and `LICENSE`, your first commit. Add to this as you go, don't
+`.gitignore`, your first commit. Add to this as you go, don't
 reconstruct it from memory at the end.
 
 ```bash
