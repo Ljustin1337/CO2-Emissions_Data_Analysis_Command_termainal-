@@ -169,11 +169,11 @@ the command hoping it works. That's exactly what section 9 of
 **Where's the exact bar for "done," and what are the optional stretch
 goals?** Everything required is in `CHECKLIST_TIMELINE.md`, and the
 optional stretch goals are the **Above & Beyond** list at the bottom of
-that same file. For the minimum bar in one short list, ask your instructor
-for the link to this template's `MVP.md` on its `project-scope` branch (it'll
-look like `.../tree/project-scope` on the *template's* GitHub page, not your
-own copy) — it's kept off `main` so it doesn't end up sitting in your
-portfolio repo.
+that same file. For the minimum bar in one short list, use the MVP
+checklist in the LMS, or go back to the original template repo you created
+yours from and switch to its `project-scope` branch to read `MVP.md` (it's
+on the *template's* GitHub page, not your own copy — kept off `main` so it
+doesn't end up sitting in your portfolio repo).
 
 **Share-out:** this week during TIP, we'll share out your data-quality
 questions, how you used AI, and any reflections from the project — so come
