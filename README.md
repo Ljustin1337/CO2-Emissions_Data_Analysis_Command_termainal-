@@ -75,10 +75,8 @@ unlike some later projects, this template does **not** come with a
   folder):
   ```bash
   touch .gitignore
-  code .gitignore
   ```
-  (If `code` isn't recognized, just open `.gitignore` from VS Code's file
-  sidebar instead.) Paste in exactly these lines and save:
+  Then open `.gitignore` in VS Code, paste in exactly these lines, and save:
   ```
   # macOS creates this hidden file in every folder you open in Finder
   .DS_Store
