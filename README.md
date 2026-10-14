@@ -1,5 +1,5 @@
 # Foundations Project: Data Literacy Field Notes
-
+### Justin Lee
 **New here?** Start with `PROJECT_OVERVIEW.md` for what you're building and
 why. This file (`README.md`) is where the step-by-step setup lives — you're
 already in the right place.
