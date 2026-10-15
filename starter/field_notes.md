@@ -65,7 +65,7 @@ head -n 5 co2_emissions_2022.csv
 ```
 
 **Output:**
-_TODO: 
+ 
 
 country,iso_code,year,population,gdp,co2
 
