@@ -65,9 +65,21 @@ head -n 5 co2_emissions_2022.csv
 ```
 
 **Output:**
-_TODO: paste what you actually got_
+_TODO: 
 
-**What I notice:** _TODO — your raw observations, in your own words_
+country,iso_code,year,population,gdp,co2
+
+Afghanistan,AFG,2022,40578847,53303471617,10.170
+
+Africa,,2022,1445862695,,1459.114
+
+Africa (GCP),G,2022,,,1459.103
+
+Albania,ALB,2022,2827614,36171005594,4.498
+
+**What I notice:** 
+
+I noticed that Africa was missing some data values when looking at the first 5 rows, specifically the iso_code and GDP values. Also, on the 4th row, data for iso_code, population, and GDP are missing. How come these values aren't here? What are the differences between Africa and Africa (GCP)?
 
 ## 2. Column names
 
