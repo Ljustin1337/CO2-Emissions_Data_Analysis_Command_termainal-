@@ -105,8 +105,17 @@ row. Column numbers for reference: `country`=1, `iso_code`=2, `year`=3,
 `population`=4, `gdp`=5, `co2`=6.
 
 ```bash
-# TODO: a command that prints the first 6 values from a single column
-# (repeat this for at least 5 of the 6 columns, swapping in each column's number)
+ cut -d',' -f1 co2_emissions_2022.csv | head -n 6
+
+cut -d',' -f2 co2_emissions_2022.csv | head -n 6
+
+cut -d',' -f3 co2_emissions_2022.csv | head -n 6
+
+cut -d',' -f4 co2_emissions_2022.csv | head -n 6
+
+cut -d',' -f5 co2_emissions_2022.csv | head -n 6
+
+cut -d',' -f6 co2_emissions_2022.csv | head -n 6
 ```
 
 Fill in the table from what you actually saw — not a guess from the column
@@ -114,11 +123,11 @@ name alone:
 
 | Column | Inferred type | How I can tell |
 |---|---|---|
-| _TODO_ | _TODO_ | _TODO_ |
-| _TODO_ | _TODO_ | _TODO_ |
-| _TODO_ | _TODO_ | _TODO_ |
-| _TODO_ | _TODO_ | _TODO_ |
-| _TODO_ | _TODO_ | _TODO_ |
+| Country | String | Value made up of words |
+| iso_code | String | Values that only contains only letters |
+| Poplulation | Intger | Values that is specifed as a whole number |
+| GDP | Intger | Values are specifed as whole numbers without any decimals |
+| Co2 | Float | Values that are numebers that contains a decimal value |
 
 **In your own words:** what's the actual difference between a list/array
 and a table? (Not a definition you looked up — explain it the way you'd
