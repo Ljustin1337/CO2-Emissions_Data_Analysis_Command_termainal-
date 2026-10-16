@@ -139,9 +139,8 @@ An array is a one-dimensional version of a table that holds a specific value typ
 
 ## 4. Structured or unstructured?
 
-State whether this dataset is structured or unstructured, and why.
+This dataset is structured due to a constant data type within each column. Because there is no mix of different data types in the columns, we can reliably compare the different sets of values.
 
-_TODO_
 
 ## 5. Before you trust this data
 
