@@ -152,27 +152,27 @@ You may need more than one command for this — piping (`|`) feeds one
 command's output into the next as input.
 
 ```bash
-# TODO: a command (or combination) that counts how many rows have a
-# BLANK iso_code
+cut -d',' -f2 co2_emissions_2022.csv | grep '^$' | wc -l
 ```
 
 **Output:**
-_TODO_
+36
 
 ```bash
-# TODO: the same idea, but for the gdp column
+cut -d',' -f5 co2_emissions_2022.csv | grep '^$' | wc -l
+
 ```
 
 **Output:**
-_TODO_
+89
 
 List **at least 2** specific things you'd want to know about how this
 dataset was collected, before trusting any conclusion drawn from it — ground
 at least one in the counts you just found.
 
 **My 2 concerns:**
-1. _TODO_
-2. _TODO_
+1. Why is there missing population values for some countries?
+2. How is the co2 consumption accounted for if we don't have a population value?
 
 ## 6. Data-quality question for the source
 
