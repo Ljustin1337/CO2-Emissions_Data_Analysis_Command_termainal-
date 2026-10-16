@@ -87,12 +87,15 @@ Next you want to see just the column names by themselves — one per line is
 a lot easier to scan than one long comma-separated row.
 
 ```bash
-# TODO: a command (or combination of commands) that prints just the header
-# row, one column name per line
+head -n 1 co2_emissions_2022.csv
+
+awk -F',' '$1 == "United States"' co2_emissions_2022.csv 
 ```
 
 **Output:**
-_TODO_
+country,iso_code,year,population,gdp,co2
+
+United States,USA,2022,341534041,19493170182843,5055.403
 
 ## 3. Column-by-column data type table
 
