@@ -181,7 +181,7 @@ phrase it as a real question you'd send to the data's source/maintainer. A
 good test: could they actually answer it with a concrete yes/no or fact —
 not "is this data good?"
 
-_TODO_
+When inspecting this dataset, I realized that some rows don't have population values. When looking into CO2 values, should I disregard these incomplete rows, or are the CO2 values still accurate for countries that are missing this important data? 
 
 ## 7. Something you're actually curious about
 
