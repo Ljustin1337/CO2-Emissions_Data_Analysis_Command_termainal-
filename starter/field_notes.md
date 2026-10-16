@@ -229,10 +229,10 @@ this at least once. Paste the actual command and what actually happened
 fix — not "I googled it and it worked."
 
 ```bash
-# TODO: a command that errored, or gave you unexpected results
+grep ',,' co2_emissions_2022.csv 
 ```
 
 **What happened:**
-_TODO: the actual error message, or the unexpected output you got_
+ I thought this command would help me identify the exact missing data. Technically, it did, but it output every single row missing a value. I actually wanted an exact numerical count. If I just wanted to see the incomplete rows, I could have looked at the co2_emissions_2022.csv file myself.
 
-**What it told me and how I fixed it:** _TODO_
+**What it told me and how I fixed it:** I leaned on AI to help me break down the meaning of the command. I realized that my original grep  grep  [',,' co2_emissions_2022.csv] command was scanning the entire row across the whole dataset for those exact characters, which is why it output so much data. To fix this, I used [cut -d',' -f6 co2_emissions_2022.csv | grep '^$' | wc -l]. This isolated just the specific column I wanted to check and gave me the exact count of the empty slots. 
