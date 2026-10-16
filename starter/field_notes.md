@@ -191,15 +191,21 @@ curious to explore using this data? Pick two specific countries you're
 curious to compare, and look up their full rows.
 
 ```bash
-# TODO: a command that finds a specific country's row by name (repeat for
-# a second country of your choice)
+awk -F',' '$1 == "United States"' co2_emissions_2022.csv
+
+awk -F',' '$1 == "Thailand"' co2_emissions_2022.csv
+
+OR
+
+awk -F',' '$1 == "United States" || $1=="Thailand"' co2_emissions_2022.csv
 ```
 
 **Output:**
-_TODO_
+Thailand,THA,2022,71735321,1124143758569,272.573
 
-**My question:** _TODO_
+United States,USA,2022,341534041,19493170182843,5055.403
 
+**My question:** How does the vast difference in GDP between the two countries correlate with their total carbon emissions?
 ## 8. AI-literacy reflection
 
 Name **2 concrete risks** of trusting an AI assistant's output about this
