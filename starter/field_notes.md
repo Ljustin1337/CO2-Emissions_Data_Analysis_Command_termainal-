@@ -215,10 +215,10 @@ fact before relying on it professionally — specific enough that you could
 actually follow it, not "I'll be careful."
 
 **Risks:**
-1. _TODO_
-2. _TODO_
+1. Over relying on AI can make you a complacent analyst, one who stops questioning results and loses the judgment needed to catch errors.
+2. Being fed the wrong answer with AIs full confidence.
 
-**My rule:** _TODO_
+**My rule:** Always inspect the dataset yourself, without AI. Confirm the row count and work from a small random sample first. Only then use AI to scale the work to your needs, and verify the results after every step.
 
 ## 9. Something that went wrong (and how you figured it out)
 
