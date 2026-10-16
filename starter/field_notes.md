@@ -129,12 +129,13 @@ name alone:
 | GDP | Intger | Values are specifed as whole numbers without any decimals |
 | Co2 | Float | Values that are numebers that contains a decimal value |
 
-**In your own words:** what's the actual difference between a list/array
-and a table? (Not a definition you looked up — explain it the way you'd
-explain it to a friend who's never coded. No command needed for this one,
-just think about the table you just filled in above.)
+**In your own words:**
+An array is a one-dimensional version of a table that holds a specific value type, such as a single row of a dataset or an entire column. Whereas a table is a structured dataset that contains both rows and columns. An example of an array is when we use the cut command to pull specific column data as output.    
 
-_TODO_
+
+ 
+
+
 
 ## 4. Structured or unstructured?
 
